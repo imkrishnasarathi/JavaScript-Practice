@@ -6,3 +6,5 @@ for (let i of sentence.split('')){
     count+=1;
   }
 }
+
+console.log(`This sentence contains ${count} vowels`)
