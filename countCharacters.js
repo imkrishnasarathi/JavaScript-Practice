@@ -4,5 +4,8 @@ function count(string){
     if (Object.keys(count).includes(i)){
         count[i]+=1;
     }
+    else{
+        count[i] = 1;
+    }
   }
 }
