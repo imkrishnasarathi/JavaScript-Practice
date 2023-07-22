@@ -8,4 +8,5 @@ function count(string){
         count[i] = 1;
     }
   }
+  return count;
 }
